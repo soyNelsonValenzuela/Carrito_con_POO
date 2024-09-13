@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.fondo {
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/25/08/14/beverages-3105631_1280.jpg);
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+th,
+td {
+    padding: 5px;
+    width: 10%;
+    text-align: start;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#capa {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: -1;
+}
+
+#gestor-container {
+    display: flex;
+    padding: 30px;
+    gap: 80px;
+}
+
+#info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+}
+
+#catalogo,
+#formulario-container {
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#formulario-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 5px white;
+}
+
+.btn:active {
+    transform: scale(0.9);
+    box-shadow: none;
+}
+
+.btn-agregar {
+    background-color: #4CAF50;
+}
+
+.btn-finalizar {
+    background-color: red;
+}
+
+#resumen-container {
+    border: solid 2px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+}
+
+#resumen {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: space-between;
+}
+
+.table {
+    width: 100%;
+}
+
+#total {
+    width: 100%;
+    text-align: end;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+#instrucciones {
+    width: 100%;
+}
+
+#atras {
+    color: black;
+}
+a,#atras{
+    margin-left: 20px;
+}
+
+a:hover,#atras:hover {
+    color: blue;
+}
